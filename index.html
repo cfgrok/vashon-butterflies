@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vashon Butterflies</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body
+    class="flex h-screen w-screen justify-center"
+    oncontextmenu="return false;"
+  >
+    <details class="open">
+      <summary class="h-screen block">
+        <img
+          src="vashon-butterflies.jpg"
+          alt="Vashon Butterflies"
+          class="object-scale-down max-h-full m-au cursor-zoom-in"
+        />
+      </summary>
+      <div class="my-auto mx-auto absolute inset-0">
+        <img
+          src="vashon-butterflies.jpg"
+          alt="Vashon Butterflies"
+          class="object-scale-down max-h-full m-au scale-300 origin-top-left cursor-zoom-out"
+          onclick="document.querySelector('details').removeAttribute('open')"
+        />
+      </div>
+    </details>
+  </body>
+</html>
